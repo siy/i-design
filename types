@@ -3,3 +3,5 @@ In I's case, I say arrays should be like Lua's, in that they have two parts:
 - a linear integer-indexed part,
 - and a hash-table part.
 I'd call them tables instead of arrays to avoid confusion.
+For classes, they could be like metatables in Lua. And for instances, they could have a "type" field containing a class (by reference of course).
+Instances with a "type" field containing the String class could be specially treated by the compiler, particularly when printing them.
