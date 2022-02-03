@@ -1,1 +1,5 @@
-The most essential types are numbers and arrays. in I's case, I say arrays should be like Lua's, in that they have two parts: a linear integer-indexed part, and a hash-table part. And for that, I'd call arrays—tables—in I, just like in Lua.
+The most essential types are numbers and arrays.
+In I's case, I say arrays should be like Lua's, in that they have two parts:
+- a linear integer-indexed part,
+- and a hash-table part.
+And for that, I'd call arrays—tables—in I, just like in Lua.
